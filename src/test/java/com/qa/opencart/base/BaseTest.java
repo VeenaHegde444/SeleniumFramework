@@ -62,7 +62,9 @@ public class BaseTest {
 	}
 	
 	@AfterTest
-	
+	/**
+	 * This method is used to quit the browser.
+	 */
 	public void tearDown() {
 		driver.quit();
 	}
